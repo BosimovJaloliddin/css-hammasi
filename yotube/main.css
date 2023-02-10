@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+}
+hr {
+  border: 1px solid #ffffff33;
+}
+.container {
+  max-width: 1666px;
+  margin: 0 auto;
+}
+
+.main-block {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: 60px 60px 1000px;
+}
+
+.nav-span {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.83);
+}
+.nav-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+/* navigation style */
+.navigation {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 3;
+  background-color: #212121;
+}
+.yotube-logo {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.logo-meniu_bar {
+  font-size: 2rem;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+.logo-youtube {
+  font-size: 2rem;
+  color: #ff0000;
+  text-decoration: none;
+}
+.logo-name {
+  font-size: 2rem;
+  color: #fff;
+}
+.house,
+.kompos,
+.subscriptions,
+.bookshlef,
+.past,
+.videos,
+.house,
+.likes,
+.seen,
+.abonents-one {
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+}
+.nav-link {
+  font-size: 1.2rem;
+  color: #888;
+  text-decoration: none;
+}
+.abonents-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+}
+.abonents {
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  line-height: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.live {
+  font-size: 0.5;
+  color: #ff0000;
+}
+.not-live {
+  font-size: 0.5rem;
+  color: #3ea6ff;
+}
+.house:hover a,
+.kompos:hover a,
+.subscriptions:hover a,
+.bookshlef:hover a,
+.past:hover a,
+.videos:hover a,
+.house:hover a,
+.likes:hover a,
+.seen:hover a,
+.abonents-one:hover a {
+  color: #fff;
+}
+.house:hover,
+.kompos:hover,
+.subscriptions:hover,
+.bookshlef:hover,
+.past:hover,
+.videos:hover,
+.house:hover,
+.likes:hover,
+.seen:hover,
+.abonents-one:hover,
+.abonents-item:hover {
+  background-color: rgba(255, 255, 255, 0.485);
+}
+/* search style */
+.search {
+  grid-column: 3 / span 9;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 2rem;
+  border-bottom: 1px solid #ffffff33;
+  background-color: #212121;
+}
+.search-yotube {
+  flex: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+.search-yotube input {
+  width: 574px;
+  height: 37px;
+  padding: 0.4rem 0.5rem;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #000000;
+  background-color: #000000;
+  vertical-align: middle;
+  outline: none;
+}
+.search-yotube label {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  border-radius: 0 5px 5px 0;
+  background: #888;
+  vertical-align: middle;
+}
+.search-bar a,
+.search-bar img {
+  margin-left: 1rem;
+}
+/* sort style */
+.sort {
+  grid-column: 3 / span 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #212121;
+  border-bottom: 1px solid #ffffff33;
+}
+.sort-item a {
+  font-size: 0.7rem;
+  font-weight: 100;
+  color: #ffffffcb;
+  padding: 0.3rem;
+  border-radius: 17px;
+  border: 0.5px solid #dadada83;
+  background: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+}
+.sort-item:hover a {
+  background-color: #ffffff;
+  color: #222;
+}
+/* main style */
+.main {
+  grid-column: 3 / span 9;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(24, 24, 24);
+}
+.main-video_item {
+  margin: 1rem;
+}
+.main-video_item video {
+  width: 300px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.main-video_ifo {
+  display: flex;
+  gap: 20px;
+  width: 300px;
+  padding: 0.5rem;
+}
+.main-video_info-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffffd2;
+}
+.main-video_info-text span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
